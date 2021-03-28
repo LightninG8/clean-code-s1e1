@@ -153,12 +153,6 @@
   transform: rotateZ(0);
 }
 
-/* Completed */
-.completed__label {
-  text-decoration: line-through;
-  color: #888;
-}
-
 /* Edit Task */
 .todo__input-text {
   display: none

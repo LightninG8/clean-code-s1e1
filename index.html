@@ -7,17 +7,17 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body class="app">
-  <div class="app__matrix matrix">
+  <header class="app__matrix matrix">
     <img class="matrix__img" src="./eisenhower-matrix.jpg">
     <a class="matrix__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="app__todo todo">
+  </header>
+  <main class="app__todo todo">
     <p class="app__add-item add-item" id="topSectionForAddingElementToList">
       <label class="app__title add-item__label" for="new-task">Add Item</label>
-      <div class="add-item__wrapper">
+      <section class="add-item__wrapper">
         <input id="new-task" class="app__input-text add-item__input" type="text">
         <button class="app__button add-item__button">Add</button>
-      </div>
+      </section>
     </p>
     <h3 class="app__title">Todo</h3>
     <ul class="todo__list" id="incompleteTasks">
@@ -46,7 +46,7 @@
         <button class="app__button delete"><img class="delete__img" src="./remove.svg"></button>
       </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
