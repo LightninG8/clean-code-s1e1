@@ -1,27 +1,27 @@
 /* Basic Style */
-body {
+.app {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.app__matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.matrix__img {
   width: 100%;
 }
 
-.aaa .more_inf {
+.matrix__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .app {
     text-align: center;
   }
 }
